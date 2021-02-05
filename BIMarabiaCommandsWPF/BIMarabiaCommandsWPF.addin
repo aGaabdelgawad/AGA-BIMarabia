@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+
+<!--This project copyrights is for Ahmed Gamal Abdel Gawad,
+    LinkedIn: https://www.linkedin.com/in/aGaabdelgawad/
+    Lectures: https://www.youtube.com/playlist?list=PLgmra2bOLNrdY-dJseru1pByMc4ye5xSo
+    This project is made for Introduction to Revit API using C# workshop,
+    The workshop was held in Cooperation with BIMarabia.-->
+
+<RevitAddIns>
+  <AddIn Type="Application">
+    <Name>BIMarabia Plugin</Name>
+    <FullClassName>BIMarabiaCommandsWPF.BIMarabiaPlugin</FullClassName>
+    <Assembly>
+      BIMarabiaCommands.dll
+    </Assembly>
+    <AddInId>
+      96A64052-1A21-49F2-879E-1E5E016FB92B
+    </AddInId>
+    <VendorId>BIMar</VendorId>
+    <VendorDescription>BIMarabia</VendorDescription>
+    <VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+  </AddIn>
+</RevitAddIns>
